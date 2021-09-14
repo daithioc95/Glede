@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Lora:wght@500&family=Roboto+Slab:wght@300&display=swap');
+
+body{
+    width:90%;
+    background-color: rgb(255, 250, 233);
+}
+
+*{
+    font-family: 'Lora', serif;
+}
+
+#page-heading{
+    margin: 25px;
+}
+
+h1, h2, h3{
+    color: orange;
+}
+
+h2 {
+    font-size: 32px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+h1, h2, h3{
+    text-align: center;
+}
+
+h2{
+    font-size: 32px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+p{
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 20px;
+}
+
+div#map2 {
+    min-height: 360px;
+}
+
+#map{
+    height:500px;
+    width: 100%;
+}
+
+.map-button{ 
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    padding: 0!important; 
+    font-family: arial, sans-serif;
+    color: #069;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.location-info{
+    display: none;
+}
+
