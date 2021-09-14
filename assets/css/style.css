@@ -26,6 +26,7 @@ h2 {
 
 h1, h2, h3{
     text-align: center;
+    text-shadow: 1px;
 }
 
 h2{
@@ -64,3 +65,9 @@ div#map2 {
     display: none;
 }
 
+.location-info {
+    /* background-color: #eef4f7; */
+    border: 1px solid orange;
+    border-radius: 0.5em;
+    padding: 5px;
+}
